@@ -18,6 +18,9 @@ void main() {
       print('Basarisiz');
       isSucess = false;
       break;
+    default:
+      print('Başarısız');
+      isSucess = false;
   }
   print('Ogrencinin sonucu: $isSucess');
 }

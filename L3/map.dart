@@ -41,13 +41,13 @@ void main() {
 
   //  bankadaki toplam para tutari
   print('**********');
-  for (var item in cemBank.keys) {
+  for (var name in cemBank.keys) {
     // cemBank[item]! -> musterinini hesaplari
     int result = 0;
-    for (var money in cemBank[item]!) {
+    for (var money in cemBank[name]!) {
       result = result + money;
     }
-    print('$item toplam paraniz --> $result');
+    print('$name toplam paraniz --> $result');
 
     ;
   }

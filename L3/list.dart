@@ -40,4 +40,7 @@ void main() {
     }
     ;
   }
+
+  List<String> userNames = ['ali', 'veli', 'cem', 'burak'];
+  userNames.contains('cem');
 }

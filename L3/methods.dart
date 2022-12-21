@@ -26,7 +26,6 @@ void main() {
   final newResult3 = convertToStandartDolar(100, dolarIndex: 15);
   final newResult4 = convertToStandartEuro(userMoney: 500);
   sayHello('aa');
-  print(sayHello('ahmet'));
 }
 
 void controlUserMoney(int money, int minimumValue) {
